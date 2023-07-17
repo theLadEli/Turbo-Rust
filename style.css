@@ -17,11 +17,25 @@ p {
     font-size: 13px;
 }
 
+a {
+    background: #1c9dff;
+    box-shadow: 0px 2px 20px rgba(28,157,255,0.5);
+    border-radius: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    width: fit-content;
+}
+
 /* Hero Section */
 
 #hero-section {
     /* Layout */
-    padding: 50px;
+    padding: 10px;
     position: relative;
     overflow: hidden;
     height: 50vh;
@@ -42,6 +56,21 @@ p {
     z-index: -1;
 }
 
-.carousel-item {
+.carousel-content {
     padding: 50px 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    padding: 0 75px;
+}
+
+.carousel-indicators button {
+    height: 5px !important;
+    padding: 0;
+    border: none !important;
+    background: #1c9dff !important;
+    box-shadow: 0px 2px 20px rgba(28,157,255,0.5) !important;
+    border-radius: 100px !important;
 }
