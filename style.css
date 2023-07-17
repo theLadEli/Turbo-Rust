@@ -1,0 +1,47 @@
+/* Global Styles */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1b1b1b;
+}
+
+h1 {
+    font-weight: 600;
+    line-height: 78px;
+    font-size: 45px;
+}
+
+p {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+/* Hero Section */
+
+#hero-section {
+    /* Layout */
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+
+    /* Style */
+    background: linear-gradient(180deg, rgba(20, 21, 27, 0.5) 0%, #14151B 100%), url("assets/Hero-Background-Image-Overlay-Dots.png");
+    color: #fff;
+    
+}
+
+#hero-section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.carousel-item {
+    padding: 50px 90px;
+}
