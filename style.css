@@ -18,8 +18,8 @@ p {
 }
 
 a {
-    background: #1c9dff;
-    box-shadow: 0px 2px 20px rgba(28,157,255,0.5);
+    background: #d66169;
+    box-shadow: 0px 2px 20px #d66169;
     border-radius: 100px;
     font-weight: 600;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ a {
     padding: 10px;
     position: relative;
     overflow: hidden;
-    height: 50vh;
+    height: 60vh;
 
     /* Style */
     background: linear-gradient(180deg, rgba(20, 21, 27, 0.5) 0%, #14151B 100%), url("assets/Hero-Background-Image-Overlay-Dots.png");
@@ -56,21 +56,32 @@ a {
     z-index: -1;
 }
 
-.carousel-content {
-    padding: 50px 90px;
+.carousel-intro {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+
+.carousel-content {
+    padding: 80px 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .carousel-inner {
-    padding: 0 75px;
+    padding: 30px 75px;
+}
+
+.carousel-indicators {
+    padding-top: 50px !important;
 }
 
 .carousel-indicators button {
     height: 5px !important;
     padding: 0;
     border: none !important;
-    background: #1c9dff !important;
-    box-shadow: 0px 2px 20px rgba(28,157,255,0.5) !important;
+    background: #d66169 !important;
+    box-shadow: 0px 2px 20px #d66169 !important;
     border-radius: 100px !important;
 }
