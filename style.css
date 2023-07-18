@@ -56,10 +56,21 @@ a {
     z-index: -1;
 }
 
+#carouselExampleIndicators {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .carousel-intro {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.carousel-item {
+    width: 60%;
 }
 
 .carousel-content {
@@ -70,7 +81,8 @@ a {
 }
 
 .carousel-inner {
-    padding: 30px 75px;
+    padding: 30px 6%;
+
 }
 
 .carousel-indicators {
@@ -112,6 +124,14 @@ a {
         padding: 0;
         text-align: center;
         margin: 40px 0;
+    }
+
+    .carousel-inner {
+        padding: 50px;
+    }
+
+    .carousel-item {
+        width: 100%;
     }
 
     .inline-buttons {
